@@ -27,7 +27,6 @@ let outraPessoa = pessoa;
 // modifica o valor da propriedade "idade" do objeto "outraPessoa"
 outraPessoa.idade = 35;
 
-// imprime os valores das propriedades "idade" da "pessoa" e da "outraPessoa" (ambas devem ser 35)
 console.log(pessoa.idade);
 console.log(outraPessoa.idade);
 
@@ -40,7 +39,9 @@ let aula = {
   quarta: true
 }
 
+// passando uma referência do obj
 testes = aula.materia = 'testes'
 quarta = aula.quarta = false
 
+// o valor é alterado 
 console.log(aula);
