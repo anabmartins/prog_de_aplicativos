@@ -1,8 +1,5 @@
-/* Quando você atribui um obj já criado para uma
-outra variável, você só está passando uma
-referência;
-Se alterar a referência, o original também é
-alterado; */
+/* Quando você atribui um obj já criado para uma outra variável, você só está passando uma referência;
+Se alterar a referência, o original também é alterado; */
 
 // exemplo 1
 
@@ -16,7 +13,7 @@ copia.teste = 2;
 
 console.log(obj.teste);
 
-//exemplo 2
+// .exemplo 2
 // cria um objeto "pessoa"
 const pessoa = {
   nome: 'Maria',
